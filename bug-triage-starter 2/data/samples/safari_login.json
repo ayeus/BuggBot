@@ -1,0 +1,9 @@
+{
+  "title": "Safari 16 crash on login submit",
+  "description": "On iOS 16 Safari, clicking submit throws TypeError and page reloads.",
+  "stack_trace": "TypeError: undefined is not an object (evaluating 'resp.data.user')\n at Login.tsx:88:14",
+  "context": {
+    "os": "iOS 16",
+    "browser": "Safari 16"
+  }
+}

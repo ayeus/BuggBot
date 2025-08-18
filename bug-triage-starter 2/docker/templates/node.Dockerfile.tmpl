@@ -1,0 +1,6 @@
+FROM node:18
+WORKDIR /app
+COPY . .
+RUN npm ci
+ENV BROWSER="Safari 16"
+CMD ["npm","run","repro:login-safari"]

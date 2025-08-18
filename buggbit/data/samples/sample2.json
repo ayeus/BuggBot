@@ -1,9 +1,0 @@
-{
-  "title": "KeyError in payment webhook",
-  "description": "During checkout, webhook fails for COD orders.",
-  "stack_trace": "Traceback (most recent call last):\n  File 'webhook.py', line 41, in handle\n    order_id = data['id']\nKeyError: 'id'",
-  "context": {
-    "runtime": "python3.11",
-    "service": "payments"
-  }
-}
